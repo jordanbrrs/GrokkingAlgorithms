@@ -16,7 +16,14 @@ int[] array = new int[5] { 5, 3, 6, 2, 10 };
 //eb.MyMethod();
 
 //Example of late binding
-dynamic obj = 4;
-dynamic obj1 = 5.678;
-Console.WriteLine(obj.GetType());
-Console.WriteLine(obj1.GetType());
+//dynamic obj = 4;
+//dynamic obj1 = 5.678;
+//Console.WriteLine(obj.GetType());
+//Console.WriteLine(obj1.GetType());
+//new DictionaryTest().Test();
+
+//string[] names = {"Peter","Jacob","Max","Jhon"};
+string[] names = { "Peter", "Jacob"};
+string display = new Post().PostLike(names);
+Console.WriteLine(display);
+
